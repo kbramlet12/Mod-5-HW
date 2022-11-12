@@ -14,3 +14,14 @@ for i in range(1, n):
         print("Divisible by Both")
     if (i % 3) != 0 and (i % 7) != 0:
         print(i)
+
+for i in range(1, 51):
+#check both divisible cases, then divisible by 3 case, divisible by 7 case
+    if i%3 == 0 and i % 7 == 0:
+        print("Divisible by Both")
+    elif i % 3== 0:
+        print("Divisible by 3")
+    elif i % 7 == 0:
+        print("Divisible by 7")
+    else:  #none of cases, print a number
+        print(i)
